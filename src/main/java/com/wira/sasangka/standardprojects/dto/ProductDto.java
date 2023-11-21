@@ -1,6 +1,5 @@
 package com.wira.sasangka.standardprojects.dto;
 
-import com.wira.sasangka.standardprojects.entity.Product;
 import lombok.Builder;
 
 import java.io.Serializable;

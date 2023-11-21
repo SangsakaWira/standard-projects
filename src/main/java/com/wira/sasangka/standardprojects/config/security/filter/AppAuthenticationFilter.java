@@ -7,7 +7,6 @@ import com.wira.sasangka.standardprojects.dto.BaseResponse;
 import com.wira.sasangka.standardprojects.dto.LoginRequest;
 import com.wira.sasangka.standardprojects.entity.AppUser;
 import com.wira.sasangka.standardprojects.exceptions.AppRuntimeException;
-import com.wira.sasangka.standardprojects.service.AppUserService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
