@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: standard-projects
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+jwt:
+  secretKey: WHO8SCGSXPK8VFBO2LH5N5HOMH65L5X6OR74AX0N02E82R0CGHK5KGCIDUU4YQM2K4WP3
