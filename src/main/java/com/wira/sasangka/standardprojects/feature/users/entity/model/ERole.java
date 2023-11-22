@@ -1,4 +1,4 @@
-package com.wira.sasangka.standardprojects.entity;
+package com.wira.sasangka.standardprojects.feature.users.entity.model;
 
 public enum ERole {
     USER("user"),

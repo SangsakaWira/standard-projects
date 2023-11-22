@@ -1,4 +1,4 @@
-package com.wira.sasangka.standardprojects.dto;
+package com.wira.sasangka.standardprojects.feature.util;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;

@@ -1,7 +1,11 @@
-package com.wira.sasangka.standardprojects.controller;
+package com.wira.sasangka.standardprojects.feature.users.controller;
 
-import com.wira.sasangka.standardprojects.dto.*;
-import com.wira.sasangka.standardprojects.service.AppUserService;
+import com.wira.sasangka.standardprojects.feature.users.dto.JwtResponse;
+import com.wira.sasangka.standardprojects.feature.users.dto.LoginRequest;
+import com.wira.sasangka.standardprojects.feature.users.dto.PasswordRequest;
+import com.wira.sasangka.standardprojects.feature.users.dto.UserRequest;
+import com.wira.sasangka.standardprojects.feature.users.service.AppUserService;
+import com.wira.sasangka.standardprojects.feature.util.BaseResponse;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;

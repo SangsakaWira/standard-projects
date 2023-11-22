@@ -1,6 +1,6 @@
-package com.wira.sasangka.standardprojects.repository;
+package com.wira.sasangka.standardprojects.feature.users.entity.repositories;
 
-import com.wira.sasangka.standardprojects.entity.AppUser;
+import com.wira.sasangka.standardprojects.feature.users.entity.model.AppUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

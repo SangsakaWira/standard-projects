@@ -1,11 +1,11 @@
-package com.wira.sasangka.standardprojects.service;
+package com.wira.sasangka.standardprojects.feature.products.service;
 
-import com.wira.sasangka.standardprojects.dto.BaseResponse;
-import com.wira.sasangka.standardprojects.dto.ProductDto;
-import com.wira.sasangka.standardprojects.dto.ProductRequest;
-import com.wira.sasangka.standardprojects.entity.Product;
+import com.wira.sasangka.standardprojects.feature.util.BaseResponse;
+import com.wira.sasangka.standardprojects.feature.products.dto.ProductDto;
+import com.wira.sasangka.standardprojects.feature.products.dto.ProductRequest;
+import com.wira.sasangka.standardprojects.feature.products.entity.model.Product;
 import com.wira.sasangka.standardprojects.exceptions.ResourceNotFoundException;
-import com.wira.sasangka.standardprojects.repository.ProductRepository;
+import com.wira.sasangka.standardprojects.feature.products.entity.repositories.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;

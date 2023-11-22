@@ -1,4 +1,4 @@
-package com.wira.sasangka.standardprojects.dto;
+package com.wira.sasangka.standardprojects.feature.products.dto;
 
 import java.io.Serializable;
 

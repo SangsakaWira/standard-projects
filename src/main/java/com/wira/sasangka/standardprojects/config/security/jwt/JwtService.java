@@ -1,8 +1,8 @@
 package com.wira.sasangka.standardprojects.config.security.jwt;
 
 import com.nimbusds.jwt.JWTClaimsSet;
-import com.wira.sasangka.standardprojects.dto.JwtResponse;
-import com.wira.sasangka.standardprojects.entity.AppUser;
+import com.wira.sasangka.standardprojects.feature.users.dto.JwtResponse;
+import com.wira.sasangka.standardprojects.feature.users.entity.model.AppUser;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.security.core.GrantedAuthority;
 

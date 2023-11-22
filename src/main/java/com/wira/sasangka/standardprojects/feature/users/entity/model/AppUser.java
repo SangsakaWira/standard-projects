@@ -1,5 +1,6 @@
-package com.wira.sasangka.standardprojects.entity;
+package com.wira.sasangka.standardprojects.feature.users.entity.model;
 
+import com.wira.sasangka.standardprojects.feature.util.BaseEntity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

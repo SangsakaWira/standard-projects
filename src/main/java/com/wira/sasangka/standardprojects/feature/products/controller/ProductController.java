@@ -1,9 +1,9 @@
-package com.wira.sasangka.standardprojects.controller;
+package com.wira.sasangka.standardprojects.feature.products.controller;
 
-import com.wira.sasangka.standardprojects.dto.BaseResponse;
-import com.wira.sasangka.standardprojects.dto.ProductDto;
-import com.wira.sasangka.standardprojects.dto.ProductRequest;
-import com.wira.sasangka.standardprojects.service.ProductService;
+import com.wira.sasangka.standardprojects.feature.util.BaseResponse;
+import com.wira.sasangka.standardprojects.feature.products.dto.ProductDto;
+import com.wira.sasangka.standardprojects.feature.products.dto.ProductRequest;
+import com.wira.sasangka.standardprojects.feature.products.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

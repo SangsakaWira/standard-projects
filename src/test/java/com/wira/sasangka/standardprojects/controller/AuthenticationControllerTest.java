@@ -1,10 +1,11 @@
 package com.wira.sasangka.standardprojects.controller;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.wira.sasangka.standardprojects.dto.BaseResponse;
-import com.wira.sasangka.standardprojects.dto.JwtResponse;
-import com.wira.sasangka.standardprojects.dto.LoginRequest;
-import com.wira.sasangka.standardprojects.service.AppUserService;
+import com.wira.sasangka.standardprojects.feature.util.BaseResponse;
+import com.wira.sasangka.standardprojects.feature.users.dto.JwtResponse;
+import com.wira.sasangka.standardprojects.feature.users.dto.LoginRequest;
+import com.wira.sasangka.standardprojects.feature.users.controller.AuthenticationController;
+import com.wira.sasangka.standardprojects.feature.users.service.AppUserService;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.springframework.beans.factory.annotation.Autowired;

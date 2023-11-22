@@ -1,8 +1,8 @@
-package com.wira.sasangka.standardprojects.service;
+package com.wira.sasangka.standardprojects.feature.products.service;
 
-import com.wira.sasangka.standardprojects.dto.BaseResponse;
-import com.wira.sasangka.standardprojects.dto.ProductDto;
-import com.wira.sasangka.standardprojects.dto.ProductRequest;
+import com.wira.sasangka.standardprojects.feature.util.BaseResponse;
+import com.wira.sasangka.standardprojects.feature.products.dto.ProductDto;
+import com.wira.sasangka.standardprojects.feature.products.dto.ProductRequest;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.transaction.annotation.Transactional;

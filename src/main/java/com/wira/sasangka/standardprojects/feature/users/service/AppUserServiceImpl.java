@@ -1,11 +1,11 @@
-package com.wira.sasangka.standardprojects.service;
+package com.wira.sasangka.standardprojects.feature.users.service;
 
-import com.wira.sasangka.standardprojects.dto.BaseResponse;
-import com.wira.sasangka.standardprojects.dto.PasswordRequest;
-import com.wira.sasangka.standardprojects.dto.UserRequest;
-import com.wira.sasangka.standardprojects.entity.AppUser;
+import com.wira.sasangka.standardprojects.feature.util.BaseResponse;
+import com.wira.sasangka.standardprojects.feature.users.dto.PasswordRequest;
+import com.wira.sasangka.standardprojects.feature.users.dto.UserRequest;
+import com.wira.sasangka.standardprojects.feature.users.entity.model.AppUser;
 import com.wira.sasangka.standardprojects.exceptions.AppRuntimeException;
-import com.wira.sasangka.standardprojects.repository.AppUserRepository;
+import com.wira.sasangka.standardprojects.feature.users.entity.repositories.AppUserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

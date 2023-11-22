@@ -1,5 +1,6 @@
-package com.wira.sasangka.standardprojects.entity;
+package com.wira.sasangka.standardprojects.feature.products.entity.model;
 
+import com.wira.sasangka.standardprojects.feature.util.BaseEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import jakarta.persistence.UniqueConstraint;

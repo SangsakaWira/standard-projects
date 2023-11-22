@@ -1,12 +1,13 @@
-package com.wira.sasangka.standardprojects.dto;
+package com.wira.sasangka.standardprojects.feature.users.dto;
 
-import com.wira.sasangka.standardprojects.entity.ERole;
+import com.wira.sasangka.standardprojects.feature.users.entity.model.ERole;
+import com.wira.sasangka.standardprojects.feature.users.entity.model.AppUser;
 import jakarta.validation.constraints.*;
 
 import java.io.Serializable;
 
 /**
- * DTO for {@link com.wira.sasangka.standardprojects.entity.AppUser}
+ * DTO for {@link AppUser}
  */
 public record UserRequest(
         @NotNull(message = "Name can't be blank")

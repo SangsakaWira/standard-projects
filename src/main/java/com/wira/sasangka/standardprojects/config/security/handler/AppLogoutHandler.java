@@ -2,7 +2,7 @@ package com.wira.sasangka.standardprojects.config.security.handler;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.nimbusds.jwt.JWTClaimsSet;
-import com.wira.sasangka.standardprojects.dto.BaseResponse;
+import com.wira.sasangka.standardprojects.feature.util.BaseResponse;
 import com.wira.sasangka.standardprojects.config.security.SecurityUtils;
 import com.wira.sasangka.standardprojects.config.security.jwt.JwtService;
 import com.wira.sasangka.standardprojects.exceptions.AppRuntimeException;

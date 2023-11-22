@@ -1,6 +1,6 @@
 package com.wira.sasangka.standardprojects.exceptions;
 
-import com.wira.sasangka.standardprojects.dto.BaseResponse;
+import com.wira.sasangka.standardprojects.feature.util.BaseResponse;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;

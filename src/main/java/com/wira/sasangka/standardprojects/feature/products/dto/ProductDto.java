@@ -1,12 +1,13 @@
-package com.wira.sasangka.standardprojects.dto;
+package com.wira.sasangka.standardprojects.feature.products.dto;
 
+import com.wira.sasangka.standardprojects.feature.products.entity.model.Product;
 import lombok.Builder;
 
 import java.io.Serializable;
 import java.time.Instant;
 
 /**
- * DTO for {@link com.wira.sasangka.standardprojects.entity.Product}
+ * DTO for {@link Product}
  */
 @Builder
 public record ProductDto(

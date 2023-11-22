@@ -1,6 +1,6 @@
 package com.wira.sasangka.standardprojects.config.security;
 
-import com.wira.sasangka.standardprojects.entity.AppUser;
+import com.wira.sasangka.standardprojects.feature.users.entity.model.AppUser;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.authentication.*;

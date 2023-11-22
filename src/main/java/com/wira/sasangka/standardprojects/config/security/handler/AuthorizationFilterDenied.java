@@ -1,7 +1,7 @@
 package com.wira.sasangka.standardprojects.config.security.handler;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.wira.sasangka.standardprojects.dto.BaseResponse;
+import com.wira.sasangka.standardprojects.feature.util.BaseResponse;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;

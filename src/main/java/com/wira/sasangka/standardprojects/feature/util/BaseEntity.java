@@ -1,4 +1,4 @@
-package com.wira.sasangka.standardprojects.entity;
+package com.wira.sasangka.standardprojects.feature.util;
 
 import jakarta.persistence.Id;
 import jakarta.persistence.MappedSuperclass;
